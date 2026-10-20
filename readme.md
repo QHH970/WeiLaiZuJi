@@ -1,6 +1,6 @@
 # 位来足迹微信小程序网课自动学习系统
 
-一个基于Python的微信小程序网课自动学习工具，支持自动抓包获取凭据、快速完成课程学习等功能。转自大佬https://github.com/whx1216/WeiLaiZuJi_Completed_Script.git，借助ai修复了自动抓包功能的bug
+一个基于Python的微信小程序网课自动学习工具，支持自动抓包获取凭据、快速完成课程学习等功能，借助ai修复了自动抓包功能的bug。转自大佬https://github.com/whx1216/WeiLaiZuJi_Completed_Script.git
 
 ## ⚠️ 免责声明
 
