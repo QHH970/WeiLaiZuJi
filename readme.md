@@ -1,6 +1,6 @@
 # 位来足迹微信小程序网课自动学习系统
 
-一个基于Python的微信小程序网课自动学习工具，支持自动抓包获取凭据、快速完成课程学习等功能。
+一个基于Python的微信小程序网课自动学习工具，支持自动抓包获取凭据、快速完成课程学习等功能。转自大佬https://github.com/whx1216/WeiLaiZuJi_Completed_Script.git，借助ai修复了自动抓包功能的bug
 
 ## ⚠️ 免责声明
 
@@ -23,18 +23,16 @@
 
 1. **下载程序**
 
-	- 下载 Releases中的`reWeiLaiZuJi.zip`
-	- 将zip解压到任意文件夹中
-
+   - 下载 Releases中的`reWeiLaiZuJi.zip`
+   - 将zip解压到任意文件夹中
 2. **运行程序**
 
    - 直接双击运行文件夹中`reWeiLaiZuJi.exe`
-
 3. **开始使用**
 
-	- 程序启动后会自动创建配置文件
-	- 选择"自动抓包获取"方式
-	- 按提示操作即可开始学习
+   - 程序启动后会自动创建配置文件
+   - 选择"自动抓包获取"方式
+   - 按提示操作即可开始学习
 
 ### 方式二：Python源码运行
 
@@ -74,7 +72,7 @@ python main.py
 
 1. 使用抓包工具获取以下信息：
    - Socket ID
-   - School ID  
+   - School ID
    - User ID
    - Token
    - Referer（可选）
@@ -161,31 +159,33 @@ WeiLaiZuJi/
 ### 常见问题
 
 1. **FiddlerCore加载失败**
+
    - 检查DLL文件是否存在于程序目录
    - 确保使用Windows系统
    - 安装 `pip install pythonnet`
-
 2. **抓包失败**
+
    - 确保微信小程序正在运行
    - 检查系统代理设置
    - 尝试重启程序
-
 3. **认证失败**
+
    - 重新获取凭据
    - 检查token是否过期
-
 4. **课程完成失败**
+
    - 检查网络连接
    - 确认API接口正常
    - 查看详细错误日志
-
 5. **电脑不能上网**
+
    - 检查网络连接
    - 清除或恢复系统代理设置
 
 ### 调试模式
 
 设置环境变量启用调试模式：
+
 ```bash
 set PYTHONPATH=%PYTHONPATH%;.
 python -c "import logging; logging.basicConfig(level=logging.DEBUG)"

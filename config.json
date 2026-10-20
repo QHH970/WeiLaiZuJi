@@ -26,7 +26,7 @@
         "completion_threshold": 0.9
     },
     "fiddler": {
-        "dll_path": "",
+        "dll_path": "FiddlerCore4.dll",
         "proxy_port": 8888,
         "target_domain": "job3.posedu.com.cn",
         "auto_setup_proxy": true,

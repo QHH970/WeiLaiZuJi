@@ -73,7 +73,8 @@ class WeChatTrafficMonitor:
             # 更新实际使用的路径
             self.dll_path = dll_path
 
-            clr.AddReference(self.dll_path)
+            clr.AddReference(os.path.abspath(dll_path))   # 按完整路径加载，绕开程序集名解析
+
 
             # 导入Fiddler相关类
             import Fiddler
